@@ -25,7 +25,7 @@
             require_once '../app/views/' . $view . '.php';
         }else{
             // View does not exists
-            die(sprintf('The View file %s could not be found.', $view));
+            die(sprintf('The View file [%s] could not be found.', $view));
         }
     }
  }

@@ -7,4 +7,4 @@ define("APPROOT",dirname(dirname(__FILE__)));
 define("URLROOT","http://localhost/mh-shuvo/php-mvc");
 
 //Site Name
-define("SITENAME","BitByteMVC");
+define("SITENAME","SimpleMVC");
