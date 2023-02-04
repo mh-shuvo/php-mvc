@@ -1,11 +1,11 @@
 <?php
-  class Pages {
+  class Pages extends Controller {
     public function __construct(){
      
     }
 
     public function index(){
-      echo 1;
+      return $this->view("index",["title" => "Welcome to the PHPMVC"]);
     }
 
     public function about($id){
