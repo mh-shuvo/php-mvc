@@ -3,8 +3,8 @@
 
 define('DB_HOST','localhost');
 define('DB_USER','root');
-define('DB_PASSWORD','Mehedi@2020');
-define('DB_NAME','php_mvc');
+define('DB_PASSWORD','password');
+define('DB_NAME','mvc');
 
 //App Root
 define("APPROOT",dirname(dirname(__FILE__)));
